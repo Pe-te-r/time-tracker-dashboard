@@ -30,18 +30,45 @@ body{
 
 .box{
     display: flex;
+    box-shadow: 2px 2px 3px 2px black;
+    border-radius: 10px;
     flex-direction: column;
-    border: 2px dotted green;
+    /* border: 2px dotted green; */
     /* padding: 10px; */
     /* background-color: brown; */
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
 }
 
+.box-1>div:first-child{
+    background: url('../images/icon-work.svg');
+    background-color: rgba(165, 42, 42, 0.541);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.box-2>div:first-child{
+    background: url('../images/icon-play.svg');
+    background-color: rgba(33, 62, 189, 0.829);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+.box-3>div:first-child{
+    background: url('../images/icon-study.svg');
+    background-color: rgba(202, 18, 18, 0.863);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
 
 .box>div:first-child{
-    height: 20%;
+    height: 24%;
+    border-radius: 10px 10px 0px 0px;
     display: block;
     overflow: hidden;
 }
@@ -50,11 +77,10 @@ body{
     display: flex;
     flex-direction: column;
     color: whitesmoke;
-    padding-left: 10px;
+    padding-left: 15px;
     background-color: rgba(0, 0, 34, 0.884);
     border-radius: 10px;
-    height: 80%;
-    border: 3px solid red;
+    height: 81%;
     justify-content: space-around;
 }
 
