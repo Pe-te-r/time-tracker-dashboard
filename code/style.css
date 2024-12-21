@@ -155,6 +155,7 @@ body{
 
 }
 
+
 /* profile part */
 .profile{
     background-color: rgba(0, 0, 34, 0.884);
@@ -195,3 +196,26 @@ img{
     width: 100%;
 }
 /* end of profile part */
+
+
+
+
+/* mobile phone */
+@media (max-width: 768px) {
+    .main{
+        flex-direction: column;
+    }
+    .main>div:last-child>div{
+        flex-direction:column;
+    }
+    .profile{
+        width: 360px;
+    }
+    .box{
+        width: 360px;
+    }
+    .box>div:last-child>div{
+        flex-direction: column;
+        display: flex;
+    }
+}
