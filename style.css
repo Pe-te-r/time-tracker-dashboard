@@ -57,7 +57,7 @@ body{
 
 }
 .box-1>div:first-child{
-    background: url('../images/icon-work.svg');
+    background: url('./images/icon-work.svg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -67,7 +67,7 @@ body{
     background-color: rgba(33, 62, 189, 0.829);
 }
 .box-2>div:first-child{
-    background: url('../images/icon-play.svg');
+    background: url('./images/icon-play.svg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -76,7 +76,7 @@ body{
     background-color: rgba(202, 18, 18, 0.863);
 }
 .box-3>div:first-child{
-    background: url('../images/icon-study.svg');
+    background: url('./images/icon-study.svg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -87,7 +87,7 @@ body{
     background-color: rgba(14, 153, 21, 0.568);
 }
 .box-4>div:first-child{
-    background: url('../images/icon-exercise.svg');
+    background: url('./images/icon-exercise.svg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -109,7 +109,7 @@ body{
     background-color: rgba(139, 137, 18, 0.603);
 }
 .box-6>div:first-child{
-    background: url('../images/icon-self-care.svg');
+    background: url('./images/icon-self-care.svg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
