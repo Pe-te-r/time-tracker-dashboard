@@ -14,10 +14,12 @@ body{
 }
 
 .main{
-    padding: 10px;
-    border: 2px solid black;
+    background-color: grey;
+    padding-left: 20px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.548);
     display: flex;
     align-items: center;
+    width: fit-content;
 }
 .main>div:last-child{
     flex-direction: column;
@@ -30,17 +32,25 @@ body{
 
 .box{
     display: flex;
-    box-shadow: 2px 2px 3px 2px black;
+    box-shadow: 2px 2px 3px 2px rgba(34, 34, 34, 0.822);
     border-radius: 10px;
     flex-direction: column;
-    /* border: 2px dotted green; */
-    /* padding: 10px; */
-    /* background-color: brown; */
     height: 200px;
     width: 200px;
     margin: 20px;
 }
 
+.box>div:last-child>span{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4px;
+    align-items: center;
+    justify-items: center;
+}
+.dots{
+    color: white;
+    font-size: 1.5rem;
+}
 /* image background insertion */
 .box-1{
     background-color: rgba(165, 42, 42, 0.541);
@@ -74,7 +84,7 @@ body{
 }
 
 .box-4{
-    background-color: rgba(18, 202, 27, 0.664);
+    background-color: rgba(14, 153, 21, 0.568);
 }
 .box-4>div:first-child{
     background: url('../images/icon-exercise.svg');
@@ -96,7 +106,7 @@ body{
 }
 
 .box-6{
-    background-color: rgba(202, 199, 18, 0.863);
+    background-color: rgba(139, 137, 18, 0.603);
 }
 .box-6>div:first-child{
     background: url('../images/icon-self-care.svg');
@@ -107,6 +117,7 @@ body{
 }
 
 /* done image insertion */
+
 .box>div:first-child{
     height: 18%;
     border-radius: 10px 10px 0px 0px;
@@ -143,3 +154,44 @@ body{
     color: white;
 
 }
+
+/* profile part */
+.profile{
+    background-color: rgba(0, 0, 34, 0.884);
+    height: 440px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.profile>div{
+    background-color: rgba(0, 0, 255, 0.781);
+    border-radius: 10px;
+    height: 70%;
+    padding: 20px 30px 0px 20px;
+}
+.profile>div>div:first-child{
+    width: 70px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.profile>div>div:last-child{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.profile>div>div:last-child>h2{
+    font-weight: lighter;
+    font-size: 2.1rem;
+}
+.profile>p{
+    padding-left: 20px;
+    padding-top: 12px;
+    color: gray;
+}
+.profile>p:nth-child(3){
+    color: whitesmoke;
+}
+img{
+    display: block;
+    width: 100%;
+}
+/* end of profile part */
