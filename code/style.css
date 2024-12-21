@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: beige;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+.main{
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.main>div:last-child{
+    flex-direction: column;
+    display: flex   ;
+}
+
+.main>div:last-child>div{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted green;
+    /* padding: 10px; */
+    /* background-color: brown; */
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+.box>div:first-child{
+    height: 20%;
+    display: block;
+    overflow: hidden;
+}
+
+.box>div:last-child{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 34, 0.884);
+    border-radius: 10px;
+    height: 80%;
+    border: 3px solid red;
+    justify-content: space-around;
+}
+
+.box>div:last-child>h3{
+    font-weight: bold;
+}
+.box>div:last-child>div>h2{
+    font-size: 2.1rem;
+    margin :5px 0px;
+}
+.box>div:last-child>div>p{
+    color: rgba(255, 255, 255, 0.774);
+}
+.box>div>img{
+    display: block;
+}
+.box>div>h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
