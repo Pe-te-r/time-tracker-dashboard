@@ -41,33 +41,74 @@ body{
     margin: 20px;
 }
 
+/* image background insertion */
+.box-1{
+    background-color: rgba(165, 42, 42, 0.541);
+
+}
 .box-1>div:first-child{
     background: url('../images/icon-work.svg');
-    background-color: rgba(165, 42, 42, 0.541);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
 }
 
+.box-2{
+    background-color: rgba(33, 62, 189, 0.829);
+}
 .box-2>div:first-child{
     background: url('../images/icon-play.svg');
-    background-color: rgba(33, 62, 189, 0.829);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-
+}
+.box-3{
+    background-color: rgba(202, 18, 18, 0.863);
 }
 .box-3>div:first-child{
     background: url('../images/icon-study.svg');
-    background-color: rgba(202, 18, 18, 0.863);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
 
 }
 
+.box-4{
+    background-color: rgba(18, 202, 27, 0.664);
+}
+.box-4>div:first-child{
+    background: url('../images/icon-exercise.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+.box-5{
+    background-color: rgba(134, 18, 202, 0.863);
+}
+.box-5>div:first-child{
+    background: url('../images/icon-social.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+.box-6{
+    background-color: rgba(202, 199, 18, 0.863);
+}
+.box-6>div:first-child{
+    background: url('../images/icon-self-care.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+/* done image insertion */
 .box>div:first-child{
-    height: 24%;
+    height: 18%;
     border-radius: 10px 10px 0px 0px;
     display: block;
     overflow: hidden;
@@ -80,7 +121,7 @@ body{
     padding-left: 15px;
     background-color: rgba(0, 0, 34, 0.884);
     border-radius: 10px;
-    height: 81%;
+    height: 82%;
     justify-content: space-around;
 }
 
